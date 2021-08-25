@@ -1,10 +1,10 @@
 # Pardot APIs for Postman
 
-A [Postman](https://www.postman.com) collection of 230+ requests for the following Pardot APIs:
+A [Postman](https://www.postman.com) collection of requests for the following Pardot APIs:
 
 Synchronous API v5
 
-![Postman screenshot](doc-gfx/app/limits-status-200.png)
+![Postman screenshot](doc-gfx/app/Postman%20Screen.png.png)
 
 Learn more about the Collection:
 - Blog Post Coming Soon
