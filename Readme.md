@@ -1,17 +1,8 @@
-# Salesforce APIs for Postman
+# Pardot APIs for Postman
 
-A [Postman](https://www.postman.com) collection of 230+ requests for the following Salesforce APIs:
+A [Postman](https://www.postman.com) collection of 230+ requests for the following Pardot APIs:
 
-<table>
-   <tr>
-      <td>
-         <ul>
-            <li>V3 Synchronous API</li>
-            <li>V3 Export API</li>
-            <li>V3 Import API</li>
-      </td>
-   </tr>
-</table>
+Synchronous API v5
 
 ![Postman screenshot](doc-gfx/app/limits-status-200.png)
 
@@ -20,22 +11,22 @@ Learn more about the Collection:
 
 **⚠️ Disclaimers:**
 - This collection is provided as-is. It's not officially supported by Salesforce or covered by SLAs.
-- API documentation is not provided with the collection. Please refer to the [official documentation](https://developer.pardot.com).
+- API documentation isn’t provided with the collection. Refer to the [official Pardot API documentation](https://developer.salesforce.com/docs/marketing/pardot/overview).
 
 
 ## Issues and Questions
 
-Report issues and ask questions [here](https://github.com/forcedotcom/postman-salesforce-apis/issues).
+Report issues and ask questions here: [https://github.com/forcedotcom/postman-pardot-apis/issues](https://github.com/forcedotcom/postman-pardot-apis/issues).
 
 
 ## Installation
 
-You can use the **Postman desktop app** or the **Postman web UI** to connect to Salesforce with the Salesforce APIs collection:
+You can use the **Postman desktop app** or the **Postman web UI** to connect to the Pardot APIs collection:
 
 - [Install using the Postman desktop app](install-with-app.md) (recommended)
 - [Install using the Postman web UI](install-with-web.md) (longer setup, requires CORS configuration in Salesforce org)
 
-Regardless of whether you choose the desktop app or the web UI, you can use all of the collection’s requests and your changes are synchronized between the two environments so you can easily switch between them at any time.
+Regardless of whether you choose the desktop app or the web UI, you can use all of the collection’s requests. Your changes are synchronized between the two environments so you can easily switch between them at any time.
 
 
 ## Additional Documentation
