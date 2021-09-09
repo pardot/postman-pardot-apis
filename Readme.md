@@ -4,8 +4,6 @@ A [Postman](https://www.postman.com) collection of requests for the following Pa
 
 Synchronous API v5
 
-![Postman screenshot](doc-gfx/app/Postman%20Screen.png.png)
-
 Learn more about the Collection:
 - Blog Post Coming Soon
 

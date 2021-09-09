@@ -1,4 +1,4 @@
-[Back to main page](README.md)
+[Back to main page](Readme.md)
 
 > Instructions updated for Postman desktop app v8
 
@@ -48,7 +48,7 @@ Before you can complete these steps, you must have a configured connected app an
 
 ## Authenticate with Salesforce
 
- You must authenticate to access the APIs. Doing so grants you an access token that is valid for a certain duration.
+You must authenticate to access the APIs. Doing so grants you an access token that is valid for a certain duration.
 
 Repeat this step whenever your access token expires.
 
@@ -57,12 +57,9 @@ Repeat this step whenever your access token expires.
 3. Click **Get New Access Token**. This opens a browser tab with the Salesforce login screen.
 4. Log in to your Salesforce org.
 5. Click **Allow** to grant access to your org.
+6. If your environment is correctly set up, you should see a success message and be redirected to the Postman app. Click **Use Token** when prompted.
 
-    ![Grant access screenshot](doc-gfx/salesforce/grant-access.png)
-
-    At this point, if your environment is correctly set up, you should see a success message and you should be redirected to the Postman app.
-
-    If you're not automatically redirected, you may need to allow popups in your browser.
+If you're not automatically redirected, you may need to allow popups in your browser.
 
     <details><summary>Click here for instructions on how to authorize popups.</summary>
     <p>
@@ -85,7 +82,7 @@ Repeat this step whenever your access token expires.
 
 If your environment is correctly set up, you should see a `200 OK` status. This means that you have successfully authenticated with Salesforce and that you can now use the other collection’s requests.
 
-![Authenticate screenshot](doc-gfx/app/Postman%20Screen.png)
+![Authenticate screenshot](doc-gfx/app/status200.png)
 
 See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
 

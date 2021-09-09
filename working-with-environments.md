@@ -4,7 +4,7 @@
 
 Use the Postman desktop app with environments to work with multiple Salesforce orgs in parallel.
 
-> ⚠️ Using environments means that you will store Salesforce credentials in clear in Postman. Do this at your own risk.
+> ⚠️ Using environments means that you will store credentials in clear in Postman. Do this at your own risk.
 
 
 - [Working with environments to connect to multiple Salesforce orgs](#working-with-environments-to-connect-to-multiple-salesforce-orgs)
