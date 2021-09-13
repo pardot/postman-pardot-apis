@@ -52,7 +52,7 @@ You must authenticate to access the APIs. Doing so grants you an access token th
 
 Repeat this step whenever your access token expires.
 
-1. Click **Salesforce APIs**
+1. Click **Pardot APIs**
 2. Open the **Authorization** tab. The authorization type should be set to OAuth 2.0.
 3. Click **Get New Access Token**. This opens a browser tab with the Salesforce login screen.
 4. Log in to your Salesforce org.
