@@ -30,4 +30,3 @@ Regardless of whether you choose the desktop app or the web UI, you can use all 
 ## Additional Documentation
 
 - [Keeping the collection up to date](updating.md)
-- [Contributing](contributing.md)
