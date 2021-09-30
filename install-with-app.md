@@ -13,11 +13,9 @@ This is the recommended installation option because it is the fastest to set up 
   - [Authenticate with Salesforce](#authenticate-with-salesforce)
   - [Execute a Request](#execute-a-request)
 
-
 ## Install the Postman App
 
 Download and install the Postman app from [this link](https://www.postman.com/downloads).
-
 
 ### Fork the Collection
 
@@ -35,16 +33,14 @@ Download and install the Postman app from [this link](https://www.postman.com/do
 1. Select a workspace (the default “My Workspace” workspace is fine).
 1. Click **Fork Collection**.
 
-
 ## Configure the Collection
 
 Before you can complete these steps, you must have a configured connected app and a Pardot Business Unit. See [Getting Started](https://developer.salesforce.com/docs/marketing/pardot/guide/getting-started.html) for help with creating a connected app and finding your business unit ID.
 
 1. Click **Pardot APIs**
 1. Open the **Variables** tab.
-2. Update the variables. See the collection documentation for help. 
+2. Update the variables. See the collection documentation for help.
 3. Click **Save**.
-
 
 ## Authenticate with Salesforce
 
@@ -61,7 +57,7 @@ Repeat this step whenever your access token expires.
 
 If you're not automatically redirected, you may need to allow popups in your browser.
 
-    <details><summary>Click here for instructions on how to authorize popups.</summary>
+<details><summary>Click here for instructions on how to authorize popups.</summary>
     <p>
     Note: these instructions are for Chrome but the steps should be similar with other browsers.
 
@@ -73,7 +69,7 @@ If you're not automatically redirected, you may need to allow popups in your bro
 
         ![Open Postman app screenshot](doc-gfx/web/allow-open-app.png)
     </p>
-    </details>
+</details>
 
 ## Execute a Request
 
@@ -85,6 +81,5 @@ If your environment is correctly set up, you should see a `200 OK` status. This 
 ![Authenticate screenshot](doc-gfx/app/status200.png)
 
 See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
-
 
 [Back to main page](README.md)
