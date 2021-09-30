@@ -57,18 +57,18 @@ Repeat this step whenever your access token expires.
 
 If you're not automatically redirected, you may need to allow popups in your browser.
 
-<details><summary>Click here for instructions on how to authorize popups.</summary>
-    <p>
-    Note: these instructions are for Chrome but the steps should be similar with other browsers.
+<details>
+    <summary>Click here for instructions on how to authorize popups.</summary>
+<p>
+    Note: these instructions are for Chrome but the steps should be similar with other browsers.</p>
 
-    1. Click the popup error in the address bar, choose to allow popups from Postman:
+   1. Click the popup error in the address bar, choose to allow popups from Postman:
 
         ![Allow popup screenshot](doc-gfx/web/allow-popup.png)
 
-    2. Refresh the page and allow the browser to open the Postman app:
+   2. Refresh the page and allow the browser to open the Postman app:
 
-        ![Open Postman app screenshot](doc-gfx/web/allow-open-app.png)
-    </p>
+        ![Open Postman app screenshot](doc-gfx/web/allow-open-app.png) 
 </details>
 
 ## Execute a Request

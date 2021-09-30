@@ -11,7 +11,6 @@ Consider this installation option if you can’t install the Postman desktop app
   - [Authenticate with Salesforce](#authenticate-with-salesforce)
   - [Execute a Request](#execute-a-request)
 
-
 ## Fork the Collection
 
 1. Using a browser, [sign up/in to Postman](https://identity.getpostman.com/login).
@@ -20,14 +19,13 @@ Consider this installation option if you can’t install the Postman desktop app
 4. Select a workspace (the default “My Workspace” workspace is fine).
 5. Click **Fork Collection**.
 
-
 ## Configure the Collection
 
 Before you can complete these steps, you must have a configured connected app and a Pardot Business Unit. See [Getting Started](https://developer.salesforce.com/docs/marketing/pardot/guide/getting-started.html) for help with creating a connected app and finding your business unit ID.
 
 1. Click **Pardot APIs**
 1. Open the **Variables** tab.
-2. Update the variables. See the collection documentation for help. 
+2. Update the variables. See the collection documentation for help.
 3. Click **Save**.
 
 ## Enable CORS in Salesforce
@@ -39,7 +37,6 @@ Before you can complete these steps, you must have a configured connected app an
 1. Repeat the previous steps and add `https://*.postman.co` (note the `.co` domain extension)
 
 ![CORS configuration screenshot](doc-gfx/salesforce/cors-finished.png)
-
 
 ## Authenticate with Salesforce
 
@@ -56,19 +53,19 @@ Repeat this step whenever your access token expires.
 
 If you're not automatically redirected, you may need to allow popups in your browser.
 
-  <details><summary>Click here for instructions on how to authorize popups.</summary>
-    <p>
-    Note: these instructions are for Chrome but the steps should be similar with other browsers.
+<details>
+    <summary>Click here for instructions on how to authorize popups.</summary>
+<p>
+    Note: these instructions are for Chrome but the steps should be similar with other browsers.</p>
 
-    1. Click the popup error in the address bar, choose to allow popups from Postman:
+   1. Click the popup error in the address bar, choose to allow popups from Postman:
 
         ![Allow popup screenshot](doc-gfx/web/allow-popup.png)
 
-    2. Refresh the page and allow the browser to open the Postman app:
+   2. Refresh the page and allow the browser to open the Postman app:
 
-        ![Open Postman app screenshot](doc-gfx/web/allow-open-app.png)
-    </p>
-  </details>
+        ![Open Postman app screenshot](doc-gfx/web/allow-open-app.png) 
+</details>
 
 ## Execute a Request
 
@@ -80,6 +77,5 @@ At this point, if your environment is correctly set up, you should see a `200 OK
 ![Authenticate screenshot](doc-gfx/app/status200.png)
 
 See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
-
 
 [Back to main page](README.md)
