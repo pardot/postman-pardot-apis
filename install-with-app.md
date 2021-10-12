@@ -80,6 +80,4 @@ If your environment is correctly set up, you should see a `200 OK` status. This 
 
 ![Authenticate screenshot](doc-gfx/app/status200.png)
 
-See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
-
-[Back to main page](README.md)
+[Back to main page](Readme.md)
